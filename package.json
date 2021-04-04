@@ -1,23 +1,24 @@
 {
-  "name": "profesionalJS",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/baiest/profesionalJS.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/baiest/profesionalJS/issues"
-  },
-  "homepage": "https://github.com/baiest/profesionalJS#readme",
-  "devDependencies": {
-    "live-server": "^1.2.1"
-  }
+    "name": "profesionalJS",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "live-server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/baiest/profesionalJS.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/baiest/profesionalJS/issues"
+    },
+    "homepage": "https://github.com/baiest/profesionalJS#readme",
+    "devDependencies": {
+        "live-server": "^1.2.1"
+    }
 }
