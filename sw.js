@@ -13,6 +13,8 @@ self.addEventListener('fetch', event => {
 
     event.respondWith(cachedResponse(request));
 
+    event.waitUntil(updateCache(request));
+
 })
 
 async function precache() {
@@ -32,6 +34,11 @@ async function precache() {
 async function cachedResponse(request) {
     const cache = await caches.open(VERSION);
     const response = await cache.match(request);
-    debugger
     return response || fetch(request);
+}
+async function updateCache(request) {
+    const cache = await caches.open(VERSION);
+    const response = await fetch(request);
+
+    cache.put(request, response);
 }
