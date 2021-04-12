@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "live-server",
+        "start": "parcel index.html typescript/index.html",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -19,6 +19,7 @@
     },
     "homepage": "https://github.com/baiest/profesionalJS#readme",
     "devDependencies": {
-        "live-server": "^1.2.1"
+        "parcel-bundler": "^1.12.5",
+        "typescript": "^4.2.4"
     }
 }
