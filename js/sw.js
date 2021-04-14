@@ -20,14 +20,14 @@ self.addEventListener('fetch', event => {
 async function precache() {
     const cache = await caches.open(VERSION);
     return cache.addAll([
-        '/',
+        /*'/',
         '/index.html',
         '/js/index.js',
         '/js/MediaPlayer.js',
         '/js/plugins/AutoPlay.js',
         '/js/plugins/AutoPause.js',
         '/css/style.css',
-        '/video.mp4',
+        '/video.mp4',*/
     ]);
 }
 
